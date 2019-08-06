@@ -15,7 +15,7 @@ raw_allocator = "jemalloc"
 # optimize_level = 0
 # stdio_encoding = "utf-8:strict"
 # unbuffered_stdio = false
-write_modules_directory_env = "PYOXIDIZER_WRITE_MODULES_DIR"
+# write_modules_directory_env = "PYOXIDIZER_WRITE_MODULES_DIR"
 
 # Windows doesn't support jemalloc.
 [[embedded_python_config]]
@@ -28,6 +28,11 @@ type = "stdlib-extensions-policy"
 # Package all available extension modules from the Python distribution.
 # The Python interpreter will be fully featured.
 policy = "all"
+
+[[packaging_rule]]
+type = "filter-include"
+files = ["allow-modules"]
+glob_files = ["module-dumps/modules-*"]
 
 # Only package the minimal set of extension modules needed to initialize
 # a Python interpreter. Many common packages in Python's standard
