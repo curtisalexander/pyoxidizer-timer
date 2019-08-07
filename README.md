@@ -2,7 +2,7 @@
 
 Experiments with [PyOxidizer]().
 
-## Get
+## Get & Use
 
 Download, decompress, and run.
 
