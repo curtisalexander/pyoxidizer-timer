@@ -2,8 +2,6 @@
 
 Experiments with [PyOxidizer](https://github.com/indygreg/PyOxidizer).
 
-Utilizes [timer](https://github.com/curtisalexander/timer) as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
-
 ## Get & Use
 
 Download, decompress, and run.
@@ -37,3 +35,7 @@ zstd -d pyoxidizer-timer-osx-x64.zst -o timer
 ```sh
 ./timer --timer 20 --unit seconds
 ```
+
+## Notes
+
+Utilizes [timer](https://github.com/curtisalexander/timer) as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
