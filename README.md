@@ -1,6 +1,8 @@
 # pyoxidizer-timer
 
-Experiments with [PyOxidizer](https://github.com/indygreg/PyOxidizer).  [timer](https://github.com/curtisalexander/timer) utilized as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+Experiments with [PyOxidizer](https://github.com/indygreg/PyOxidizer).
+
+Utilizes [timer](https://github.com/curtisalexander/timer) as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
 ## Get & Use
 
