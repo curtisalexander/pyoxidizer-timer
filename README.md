@@ -8,9 +8,9 @@ Download, decompress, and run.
 
 ### Download
 
-| Platform                  | Download                |
-| --------------------------| ------------------------|
-| macOS 10.14               | [.zst][rl-macos]        |
+| Platform            | Download                |
+| --------------------| ------------------------|
+| macOS               | [.zst][rl-macos]        |
 
 [rl-macos]: https://github.com/curtisalexander/pyoxidizer-timer/releases/download/v0.1-beta/pyoxidizer-timer-osx-x64.zst
 
